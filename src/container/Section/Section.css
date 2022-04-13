@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&family=Playfair+Display&display=swap');
+
+.letter_type {
+    font-family: 'Merriweather', serif;
+    font-family: 'Playfair Display', serif;
+
+}
+
+/* negrita en letra */
+.weight {
+    font-weight: 800;
+}
+
+.line {
+    padding-top: 30px;
+}
+
+/* tamaño imagen */
+.img-movil {
+    height: 350px;
+    width: 90%;
+}
+
+#p {
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: justify;
+
+}
+
+.text-content {
+    text-align: justify !important;
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 80px;
+    font-size: 19px;
+}
+
+/* linea en titulo */
+
+h2.dashes-to-title {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+h2.dashes-to-title:before {
+    border-top: 2px solid #1ED0C9;
+    content: "";
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 95%;
+    z-index: -1;
+}
+
+h2.dashes-to-title span {
+    background: #fff;
+    padding: 0 15px;
+}
+
+/* publicidad links */
+
+.menu-publicidad {
+    display: flex;
+    background-color: #42A7A4;
+    padding: 15px 20px;
+    border-radius: 3px;
+}
+
+.publicidad {
+    width: 33.3%;
+    padding: 0 25px;
+    border-right: 1px solid #ffffffad;
+}
+
+.menu-publicidad>.publicidad:last-child {
+    border-right: none;
+}
+
+.publicidad>a {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+}
+
+h2.numeros {
+    font-size: 50px;
+    font-weight: bold;
+    margin-right: 10px;
+    color: #ffffffad;
+}
+
+.publicidad span {
+    font-weight: bold;
+}
+
+.publicidad span:hover {
+    text-decoration: underline;
+}
+
+/* end publicidad */
+.item>a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+/* pequeña linea al lado derecho de los links */
+.short-line {
+    margin-left: 0%;
+    margin-right: 90%;
+    border: solid  #0bd8a2;
+    border-radius: 10px;
+}
+
+/* Para separar mas las letras */
+.end-to-end__link {
+    letter-spacing: .02778rem;
+}
+
+/* cambiar color link al pasar */
+.end-to-end__link:hover {
+    color: #42A7A4;
+}

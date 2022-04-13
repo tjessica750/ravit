@@ -1,0 +1,17 @@
+#menu {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #42A7A4 !important;
+    font-size: x-large;
+    font-weight: 800;
+}
+#menu a:hover {
+    color: white;
+    border-radius: 0;
+}
+
+#menu a:focus {
+    background-color: #42A7A4;
+    color: white;
+}
